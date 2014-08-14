@@ -28,4 +28,4 @@ For split a file called 'backup.bson' in files of 100MB size run:
 java jar bson_splitter.java backup.bson 100
 ```
 
-Will generate files with name "splitted./<number/>.bson", example: splitted.1.bson
+Will generate files with name "splitted.number.bson", example: splitted.1.bson

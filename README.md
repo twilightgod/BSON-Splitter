@@ -4,7 +4,7 @@ Split BSON(mongodump result) in many files of a fixed size.
 
 # Last jar
 
-[BSON Splitter Jar 0.1.0](https://github.com/alangalvino/BSON-Splitter/blob/develop/bson_splitter.jar)
+[BSON Splitter Jar 0.1.0](https://github.com/alangalvino/BSON-Splitter/raw/develop/bson_splitter.jar)
 
 # Dependencies
 

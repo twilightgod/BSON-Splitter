@@ -9,10 +9,31 @@ Split BSON(mongodump result) in many files of a fixed size.
 
 # Using jar
 
+## Running jar
+
 For split a file called 'backup.bson' in files of 100MB size run:
 
 ```
 java -jar bson_splitter.java backup.bson 100
+```
+
+## Example
+
+For a backup.bson file of 300MB size run:
+
+```
+java -jar bson_splitter.java backup.bson 100
+```
+
+The result should be:
+
+```
+$ ls -la
+
+backup.bson        300MB
+splitted.1.bson    100MB
+splitted.2.bson    100MB
+splitted.3.bson    100MB
 ```
 
 Will generate files with name "splitted.number.bson", example: splitted.1.bson

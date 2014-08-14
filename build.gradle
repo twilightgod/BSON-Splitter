@@ -2,7 +2,6 @@ apply plugin: 'application'
 apply plugin: 'eclipse'
 
 mainClassName = 'inlocomedia.BSONSplitter'
-archivesBaseName = 'bson_splitter'
 
 repositories {
   mavenCentral()
@@ -37,4 +36,11 @@ dependencies {
   testCompile (
     [group: 'junit', name: 'junit', version: '4.11'],
   )
+}
+
+jar {
+  archiveName "bson_splitter.jar"
+  from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+  manifest { attributes 'Main-Class': mainClassName }
+  destinationDir file('build/lib')      
 }

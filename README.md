@@ -6,7 +6,10 @@ Split BSON(mongodump result) in many files of a fixed size.
 
 [BSON Splitter Jar 0.1.0](https://github.com/alangalvino/BSON-Splitter/raw/develop/bson_splitter.jar)
 
-# Dependencies
+
+# Generating jar
+
+## Dependencies
 
 - Gradle
 
@@ -14,9 +17,7 @@ Split BSON(mongodump result) in many files of a fixed size.
 brew install gradle # for mac os
 ```
 
-# Generating jar
-
-Run command
+## Run command for generating jar
 
 ```
 gradle jar

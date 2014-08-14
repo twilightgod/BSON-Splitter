@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/alangalvino/BSON-Splitter.png)](https://api.travis-ci.org/alangalvino/BSON-Splitter)
+[![GitHub version](https://badge.fury.io/gh/alangalvino%2FBSON-Splitter.svg)](http://badge.fury.io/gh/alangalvino%2FBSON-Splitter)
 
 # BSON Splitter
 

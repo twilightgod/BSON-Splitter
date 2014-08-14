@@ -19,7 +19,7 @@ java -jar bson_splitter.java backup.bson 100
 
 ## Example
 
-For a backup.bson file of 300MB size run:
+For a backup.bson with 300MB, after run:
 
 ```
 java -jar bson_splitter.java backup.bson 100

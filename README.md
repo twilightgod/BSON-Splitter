@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/alangalvino/BSON-Splitter.png)](https://api.travis-ci.org/alangalvino/BSON-Splitter)
+
 # BSON Splitter
 
 Split BSON(mongodump result) in many files of a fixed size.

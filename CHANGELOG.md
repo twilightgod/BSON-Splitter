@@ -1,3 +1,7 @@
+# Version 0.1.3
+
+- Fixing test folder error
+
 # Version 0.1.2
 
 - Adding tests

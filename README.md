@@ -17,7 +17,7 @@ Split BSON(mongodump result) in many files of a fixed size.
 To split a file called 'backup.bson', in files of 100MB size run:
 
 ```
-java -jar bson_splitter.java backup.bson 100
+java -jar bson_splitter.jar backup.bson 100
 ```
 
 Will generate files(<= 100MB) named "splitted.number.bson", example: splitted.1.bson
@@ -27,7 +27,7 @@ Will generate files(<= 100MB) named "splitted.number.bson", example: splitted.1.
 You can change the output path and file name by the following command:
 
 ```
-java -jar bson_splitter.java backup.bson 100 my/output/path my-file-name
+java -jar bson_splitter.jar backup.bson 100 my/output/path my-file-name
 ```
 
 Will generate files(<= 100MB) named "my-file-name.number.bson", example: my-file-name.1.bson. In folder 'my/output/path'.
@@ -37,7 +37,7 @@ Will generate files(<= 100MB) named "my-file-name.number.bson", example: my-file
 For a backup.bson with 300MB, after running:
 
 ```
-java -jar bson_splitter.java backup.bson 100
+java -jar bson_splitter.jar backup.bson 100
 ```
 
 The result should be:

@@ -21,7 +21,7 @@ public class BSONSplitter {
 	}
 	
 	public static void splitBsonFile(String bsonFilePath, int maxSplittedSizeInMB, String outputPath, String outputFileName) throws IOException {
-		long maxSplittedSize = maxSplittedSizeInMB * 1024 * 1024;
+		long maxSplittedSize = (long)maxSplittedSizeInMB * 1024 * 1024;
 		long numberOfObjects = 0;
 		int numberOfSplittedFiles = 1; 
 		long bytesWrittenForSplittedFile = 0;
